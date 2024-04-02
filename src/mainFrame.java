@@ -1,5 +1,8 @@
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+
 
 // import javax class package
 
@@ -8,7 +11,11 @@ public class mainFrame extends JFrame {
         setTitle("Pop Up Window! :)");
         setSize(600, 300);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        
+        //Create a JLabel
+        JLabel label = new JLabel("Hello, World!", SwingConstants.CENTER);
         setVisible(true);
+        
     }
 
 }
